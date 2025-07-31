@@ -281,3 +281,180 @@ footer a {
   margin-top: 8px;
   color: gold;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 40px auto;
+  gap: 30px;
+}
+
+.form-section, .order-section {
+  flex: 1 1 400px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #d63384;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.95em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f8f8f8;
+}
+
+.payment-options {
+  list-style: none;
+  padding: 0;
+}
+
+.payment-options li {
+  margin-bottom: 10px;
+  font-size: 0.95em;
+}
+
+.payment-options input {
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+.contacto {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.contacto h2 {
+  font-size: 2em;
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+.breadcrumb {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+.contacto-info {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.contacto-info .intro {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.datos-contacto p {
+  font-size: 1em;
+  margin: 10px 0;
+  color: #333;
+}
+/* styles.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.user-actions input {
+  padding: 0.3rem;
+  margin-right: 1rem;
+}
+
+.main-content {
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.filters {
+  width: 20%;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.products {
+  width: 80%;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.product-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}

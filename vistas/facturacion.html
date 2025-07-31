@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Facturación y Pedido</title>
+  <link rel="stylesheet" href="body.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-section">
+      <h2>DETALLES DE FACTURACIÓN</h2>
+      <form>
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="apellido" placeholder="Apellido">
+        <input type="text" name="direccion" placeholder="Dirección">
+        <select name="ciudad">
+          <option value="">Ciudad</option>
+          <option value="Asunción">Asunción</option>
+          <option value="Lambaré">Lambaré</option>
+          <option value="San Lorenzo">San Lorenzo</option>
+        </select>
+        <input type="text" name="telefono" placeholder="Teléfono">
+        <input type="email" name="correo" placeholder="Correo Electrónico">
+        <input type="text" name="cedula" placeholder="Cédula de Identidad">
+        <input type="text" name="ruc" placeholder="RUC (opcional)">
+        <input type="text" name="empresa" placeholder="Nombre de la Empresa (opcional)">
+      </form>
+    </div>
+
+    <div class="order-section">
+      <h2>TU PEDIDO</h2>
+      <table>
+        <tr>
+          <th>PRODUCTO</th>
+          <th>SUBTOTAL</th>
+        </tr>
+        <tr>
+          <td>FRENCH AVENUE GENESIS AQUARIUS EDP 80ML x 2</td>
+          <td>₲ 580.000</td>
+        </tr>
+        <tr>
+          <td>Subtotal</td>
+          <td>₲ 580.000</td>
+        </tr>
+        <tr>
+          <td>Envío</td>
+          <td>₲ 20.000</td>
+        </tr>
+        <tr>
+          <td><strong>Total</strong></td>
+          <td><strong>₲ 600.000</strong></td>
+        </tr>
+      </table>
+
+      <ul class="payment-options">
+        <li><input type="checkbox"> Transferencia Bancaria Directa</li>
+        <li><input type="checkbox"> Pago Contra Entrega (solo Asunción y alrededores)</li>
+        <li><input type="checkbox"> Visa / Mastercard</li>
+        <li><input type="checkbox"> Otras Tarjetas</li>
+        <li><input type="checkbox"> Pago vía QR</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
