@@ -44,6 +44,8 @@ Mi nombre es Laura  y actualmente me encuentro desarrollando mis habilidades com
 
 - wireframes: contiene los wireframes de las principales secciones (home, producto, carrito, login, registro).
 
+📁  TABLERO DE TRABAJO: 
 
+  https://trello.com/b/L1POWeKu/aura-perfumeria
 
 
